@@ -1,0 +1,51 @@
+.follow-us__list {
+  display: flex;
+  justify-content: center;
+  margin-top: 45px;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.follow-us__item {
+  border-radius: 10px;
+  display: block;
+  position: relative;
+  cursor: pointer;
+
+  &::after {
+    content: url("../../../images/follow-us/inst-icon.png");
+    position: absolute;
+    opacity: 0;
+    border-radius: inherit;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(43, 87, 46, 0.7);
+    z-index: 2;
+    transition: all 0.2s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &:hover::after {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .follow-us__list {
+    margin-top: 25px;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .follow-us__list {
+    gap: 15px;
+  }
+
+  .follow-us__item {
+    width: 45%;
+  }
+}

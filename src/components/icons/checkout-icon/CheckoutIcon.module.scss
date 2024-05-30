@@ -1,0 +1,18 @@
+@media (hover: hover) {
+  .checkoutIcon:hover path {
+    stroke: var(--white) !important;
+  }
+  .checkoutIcon:hover circle {
+    fill: var(--hard-primary) !important;
+  }
+}
+
+@media (hover: none) {
+  .checkoutIcon:hover path {
+    stroke: initial;
+  }
+
+  .checkoutIcon:hover circle {
+    fill: initial;
+  }
+}

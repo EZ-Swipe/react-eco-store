@@ -1,0 +1,22 @@
+.countdown {
+   display: flex;
+   align-items: baseline;
+   gap: 8px;
+}
+
+.countdown-item {
+   text-align: center;
+}
+
+.countdown-value {
+   line-height: 1.5;
+   margin-bottom: 4px;
+   font-size: 20px;
+}
+
+.countdown-time {
+   text-transform: uppercase;
+   color: var(--gray-100);
+   font-weight: 300;
+   font-size: 12px;
+}

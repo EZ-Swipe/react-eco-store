@@ -1,0 +1,133 @@
+.main-slider {
+  background: var(--green-gray-50);
+}
+
+.welcome-slide {
+  padding: 118px 52px 170px 40px;
+}
+
+.welcome__inner {
+  display: flex;
+  position: relative;
+
+  &-info {
+    width: 60%;
+  }
+
+  &-text {
+    font-size: 14px;
+    color: var(--primary);
+    text-transform: uppercase;
+  }
+
+  &-title {
+    // font-size: 72px;
+    font-size: clamp(2.625rem, -2.571rem + 8.38vw, 4.5rem);
+    margin: 8px 0 28px;
+  }
+
+  &-sale {
+    font-size: 28px;
+    font-weight: 500;
+
+    span {
+      color: var(--warning);
+    }
+
+    &-under {
+      color: var(--gray-500);
+      font-size: 14px;
+      line-height: 1.5;
+      margin: 12px 0 32px;
+    }
+  }
+
+  &-img {
+    position: absolute;
+    right: -92px;
+    top: -64px;
+    overflow: visible;
+    width: clamp(27.5rem, -9.119rem + 76.29vw, 55.25rem);
+  }
+}
+
+.slick-dots {
+  bottom: 30px;
+}
+
+.slick-dots li {
+  margin: 0;
+}
+
+.slick-dots li.slick-active button:before {
+  color: var(--primary);
+  content: "";
+  border-radius: 50px;
+  background: var(--primary);
+  height: 8px;
+  width: 16px;
+  top: 4px;
+  margin-left: 2px;
+}
+
+.slick-dots li button:before {
+  color: var(--green-gray-500);
+  font-size: 9px;
+}
+
+@media screen and (max-width: 1300px) {
+  .welcome-slide {
+    padding: 80px 52px 90px 40px;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .welcome__inner-img {
+    top: -21px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .welcome__inner-sale-under {
+    width: 240px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .welcome-slide {
+    padding: 50px 52px 60px 40px;
+  }
+
+  .welcome__inner-img {
+    width: 440px;
+    top: 43px;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .welcome__inner-info {
+    width: 100%;
+  }
+  .welcome__inner-sale-under {
+    width: auto;
+  }
+  .welcome__inner-img {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 552px) {
+  .welcome-slide {
+    padding: 40px 20px;
+  }
+  .slick-dots {
+    bottom: 3px;
+  }
+  .welcome__inner-title {
+    font-size: 30px;
+    margin: 8px 0 15px;
+  }
+  .welcome__inner-sale {
+    font-size: 24px;
+  }
+}

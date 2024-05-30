@@ -1,0 +1,138 @@
+.product-card {
+  position: relative;
+  cursor: pointer;
+  max-height: 407px;
+  width: 31%;
+
+  &__like,
+  &__view {
+    display: none;
+  }
+
+  &__sale {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    line-height: 1.5;
+    padding: 3px 8px;
+    background: var(--danger);
+    color: var(--white);
+    border-radius: 4px;
+
+    span {
+      font-weight: 500;
+    }
+  }
+
+  &__stock {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    line-height: 1.5;
+    padding: 3px 8px;
+    border-radius: 4px;
+    background: var(--gray-900);
+    color: var(--white);
+  }
+
+  &__image {
+    padding: 5px;
+    margin-inline: auto;
+  }
+
+  &__info {
+    padding: 15px 15px 6px;
+    line-height: 1.5;
+    position: relative;
+  }
+
+  &__title {
+    color: var(--gray-700);
+    font-weight: 500;
+    transition: color 0.2s ease;
+  }
+
+  &__prices {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    margin-bottom: 6px;
+
+    &-price {
+      font-weight: 600;
+    }
+
+    &-discount {
+      color: var(--gray-400);
+      text-decoration: line-through;
+    }
+  }
+}
+
+.product-card__checkout {
+  position: absolute;
+  bottom: 0;
+  right: 15px;
+  transform: translate(0, -50%);
+}
+
+@media screen and (max-width: 1024px) {
+  .product-card {
+    width: auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .product-card {
+    &__like,
+    &__view {
+      position: absolute;
+      right: 15px;
+      display: none;
+    }
+
+    &__like {
+      top: 20px;
+    }
+
+    &__view {
+      top: 66px;
+    }
+
+    &:hover &__title {
+      color: var(--hard-primary);
+    }
+
+    &:hover .product-card__like,
+    &:hover .product-card__view {
+      display: block;
+    }
+
+    &:hover &__checkout svg circle {
+      fill: var(--primary);
+    }
+
+    &:hover &__checkout svg path {
+      stroke: var(--white);
+    }
+  }
+}
+
+// Modal
+
+:where(.css-dev-only-do-not-override-djtmh8).ant-btn-default,
+:where(.css-dev-only-do-not-override-djtmh8).ant-modal
+  .ant-modal-footer
+  > .ant-btn
+  + .ant-btn {
+  display: none;
+}
+
+:where(.css-dev-only-do-not-override-djtmh8).ant-modal .ant-modal-close {
+  top: -35px;
+  color: var(--white);
+}
+
+:where(.css-dev-only-do-not-override-djtmh8).ant-modal .ant-modal-close-x {
+  font-size: 20px;
+}

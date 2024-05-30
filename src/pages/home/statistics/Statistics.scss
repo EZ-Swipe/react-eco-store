@@ -1,0 +1,83 @@
+.statistics-section {
+  background: url(../../../images/statistics/BG.png) 0 0 / cover no-repeat;
+  position: relative;
+
+  &::after {
+    content: url("../../../images/decor-3.png");
+    position: absolute;
+    top: 24px;
+    left: 0;
+  }
+
+  &::before {
+    content: url("../../../images/decor-4.png");
+    position: absolute;
+    top: 14px;
+    right: 0;
+  }
+
+  & > div {
+    &::before {
+      content: url("../../../images/decor-5.png");
+      position: absolute;
+      bottom: -21px;
+      right: 85px;
+    }
+  }
+}
+
+.statistics {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  flex-wrap: wrap;
+
+  &__item {
+    min-width: 23%;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.07);
+    text-align: center;
+    padding: 40px 0;
+
+    &-value {
+      font-size: 56px;
+      color: var(--primary);
+    }
+
+    &-text {
+      color: var(--white);
+      line-height: 1.5;
+      font-size: 18px;
+    }
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .statistics-section::after,
+  .statistics-section::before,
+  .statistics-section > div::before {
+    display: none;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .statistics__item {
+    padding: 40px 13px;
+    min-width: 20%;
+  }
+  .statistics__item-value {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .statistics__item {
+    min-width: 48%;
+    padding: 20px 0;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .statistics__item {
+    min-width: 100%;
+  }
+}

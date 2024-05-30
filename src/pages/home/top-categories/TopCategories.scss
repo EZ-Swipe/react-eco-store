@@ -1,0 +1,69 @@
+.top-categories {
+  background: rgb(219, 233, 224);
+  background: linear-gradient(
+    180deg,
+    var(--green-gray-50) 20%,
+    rgba(255, 255, 255, 1) 100%
+  );
+
+  &__inner {
+    position: relative;
+
+    &::after {
+      content: url(../../../images/decor-1.png);
+      position: absolute;
+      top: -110px;
+      left: 0;
+    }
+  }
+}
+
+.top-categories__list {
+  display: flex;
+  line-height: 1.5;
+  column-gap: 24px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-bottom: 18px;
+}
+
+.home-category {
+  text-align: center;
+  padding: 35px 24px;
+  // width: 200px;
+  min-width: 200px;
+  height: 210px;
+  cursor: pointer;
+
+  &:hover &__title {
+    color: var(--hard-primary);
+  }
+
+  img {
+    margin: 0 auto;
+  }
+
+  &__info {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  &__title {
+    font-size: 18px;
+    font-weight: 500;
+    transition: color 0.2s ease;
+  }
+
+  &__products-amount {
+    color: var(--gray-500);
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .top-categories__inner::after {
+    display: none;
+  }
+}

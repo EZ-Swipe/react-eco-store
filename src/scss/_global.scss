@@ -1,0 +1,86 @@
+// Глобальные стили для элементов html и body
+@import "mixins";
+
+body {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  color: var(--gray-900);
+  background: var(--white);
+}
+
+a,
+button,
+input,
+textarea,
+svg * {
+  transition-duration: 0.2s;
+}
+
+a {
+  color: inherit;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 600;
+  color: #0a1931;
+  margin: 0;
+}
+
+h1 {
+  //   @include fluid-text(56, 49);
+  font-size: clamp(2.75rem, -0.379rem + 5.17vw, 3.5rem);
+}
+
+h2 {
+  //   @include fluid-text(48, 44);
+  font-size: clamp(2.5rem, 0.414rem + 3.45vw, 3rem);
+}
+h3 {
+  // font-size: 40px;
+  font-size: clamp(1.5rem, 1.019rem + 1.98vw, 2.5rem);
+}
+h4 {
+  //   @include fluid-text(36, 32);
+  font-size: 36px;
+  font-weight: 700;
+}
+h5 {
+  //   @include fluid-text(32, 28);
+  font-size: 32px;
+}
+
+input,
+textarea {
+  padding: 14px 16px;
+  border: 1px solid var(--gray-100);
+  border-radius: 6px;
+  color: var(--gray-700);
+
+  &::placeholder {
+    color: var(--gray-400);
+  }
+  &:focus {
+    border-color: var(--primary);
+  }
+}
+
+footer {
+  background: var(--gray-900);
+  color: var(--gray-400);
+  padding-top: 80px;
+  line-height: 1.5;
+}
+
+@media screen and (max-width: 768px) {
+  footer {
+    padding-top: 40px;
+  }
+}
