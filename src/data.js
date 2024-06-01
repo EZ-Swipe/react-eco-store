@@ -4,7 +4,7 @@ export const categoriesData = [
   {
     id: 1,
     name: "Fresh Fruit",
-    image: "/react-eco-store/src/images/uploads/categories/Fruits.png",
+    image: "/public/uploads/categories/Fruits.png",
     slug: "fruits",
   },
 
