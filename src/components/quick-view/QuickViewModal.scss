@@ -139,3 +139,14 @@
     }
   }
 }
+
+@media screen and (max-width: 425px) {
+  .product-modal-info {
+    &__title {
+      justify-content: space-between;
+      h4 {
+        font-size: 30px;
+      }
+    }
+  }
+}

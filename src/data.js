@@ -32,7 +32,7 @@ export const categoriesData = [
   {
     id: 5,
     name: "Drinks",
-    image: "/react-eco-store/images/dataImages/categories/soft-drink.png",
+    image: "/react-eco-store/images/dataImages/categories/Soft-drink.png",
     slug: "drinks",
   },
   {

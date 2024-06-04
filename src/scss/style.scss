@@ -94,11 +94,11 @@
   }
 }
 
-:where(.css-dev-only-do-not-override-djtmh8).ant-spin-fullscreen {
+.ant-spin-fullscreen {
   background-color: var(--white);
 }
 
-:where(.css-dev-only-do-not-override-djtmh8).ant-spin-fullscreen
+.ant-spin-fullscreen
   .ant-spin-dot
   .ant-spin-dot-item {
   background: var(--primary) !important;
@@ -341,62 +341,62 @@
 
 // radio input antd
 
-:where(.css-dev-only-do-not-override-djtmh8).ant-radio-wrapper
+.ant-radio-wrapper
   .ant-radio-checked
   .ant-radio-inner {
   border-color: var(--primary);
   background-color: var(--white);
 }
 
-:where(.css-dev-only-do-not-override-djtmh8).ant-radio-wrapper
+.ant-radio-wrapper
   .ant-radio-inner::after {
   background-color: var(--primary);
 }
 
-:where(.css-dev-only-do-not-override-djtmh8).ant-radio-wrapper:hover
+.ant-radio-wrapper:hover
   .ant-radio-inner,
-:where(.css-dev-only-do-not-override-djtmh8).ant-radio-wrapper
+.ant-radio-wrapper
   .ant-radio-checked::after {
   border-color: var(--primary);
 }
 
 // Slider-antd
 
-:where(.css-dev-only-do-not-override-djtmh8).ant-slider
+.ant-slider
   .ant-slider-handle::after,
-:where(.css-dev-only-do-not-override-djtmh8).ant-slider:hover
+.ant-slider:hover
   .ant-slider-handle::after {
   box-shadow: 0 0 0 2px var(--primary);
 }
 
-:where(.css-dev-only-do-not-override-djtmh8).ant-slider
+.ant-slider
   .ant-slider-handle:hover::after,
-:where(.css-dev-only-do-not-override-djtmh8).ant-slider
+.ant-slider
   .ant-slider-handle:focus::after {
   box-shadow: 0 0 0 4px var(--primary);
 }
 
-:where(.css-dev-only-do-not-override-djtmh8).ant-slider .ant-slider-track,
-:where(.css-dev-only-do-not-override-djtmh8).ant-slider:hover
+.ant-slider .ant-slider-track,
+.ant-slider:hover
   .ant-slider-track {
   background-color: var(--primary);
 }
 
 // check-box and
 
-:where(.css-dev-only-do-not-override-djtmh8).ant-checkbox-wrapper:not(
+.ant-checkbox-wrapper:not(
     .ant-checkbox-wrapper-disabled
   ):hover
   .ant-checkbox-inner {
   border-color: var(--primary);
 }
 
-:where(.css-dev-only-do-not-override-djtmh8).ant-checkbox-wrapper:not(
+.ant-checkbox-wrapper:not(
     .ant-checkbox-wrapper-disabled
   ):hover
   .ant-checkbox-checked:not(.ant-checkbox-disabled)
   .ant-checkbox-inner,
-:where(.css-dev-only-do-not-override-djtmh8).ant-checkbox-checked
+.ant-checkbox-checked
   .ant-checkbox-inner {
   background-color: var(--primary);
   border-color: var(--primary);
@@ -404,13 +404,13 @@
 
 // Drawer
 
-:where(.css-dev-only-do-not-override-djtmh8).ant-drawer .ant-drawer-body {
+.ant-drawer .ant-drawer-body {
   padding: 0;
 }
 
 // Table
 
-:where(.css-dev-only-do-not-override-djtmh8).ant-table-wrapper
+.ant-table-wrapper
   .ant-table-thead
   > tr
   > th {
@@ -418,7 +418,7 @@
   color: var(--gray-500);
 }
 
-:where(.css-dev-only-do-not-override-djtmh8).ant-pagination
+.ant-pagination
   .ant-pagination-item-active {
   border-color: var(--primary);
   &:hover {
@@ -426,7 +426,7 @@
   }
 }
 
-:where(.css-dev-only-do-not-override-djtmh8).ant-pagination
+.ant-pagination
   .ant-pagination-item-active
   a {
   color: var(--primary);
@@ -435,7 +435,7 @@
   }
 }
 
-:where(.css-dev-only-do-not-override-djtmh8).ant-table-wrapper
+.ant-table-wrapper
   .ant-table-thead
   > tr
   > th:not(:last-child):not(.ant-table-selection-column):not(
