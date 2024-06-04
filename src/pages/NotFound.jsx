@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import imgNotFound from "../images/404.png";
+import imgNotFound from "/images/404.png";
 import { useEffect } from "react";
 
 const NotFound = () => {

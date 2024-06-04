@@ -10,7 +10,7 @@
     position: relative;
 
     &::after {
-      content: url(../../../images/decor-1.png);
+      content: url("/images/decor-1.png");
       position: absolute;
       top: -110px;
       left: 0;

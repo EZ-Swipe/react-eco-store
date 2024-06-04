@@ -4,41 +4,41 @@ export const categoriesData = [
   {
     id: 1,
     name: "Fresh Fruit",
-    image: "/react-eco-store/src/images/dataImages/categories/Fruits.png",
+    image: "/react-eco-store/images/dataImages/categories/Fruits.png",
     slug: "fruits",
   },
 
   {
     id: 2,
     name: "Vegetables",
-    image: "/react-eco-store/src/images/dataImages/categories/Vegetables.png",
+    image: "/react-eco-store/images/dataImages/categories/Vegetables.png",
     slug: "vegetables",
   },
 
   {
     id: 3,
     name: "Fish",
-    image: "/react-eco-store/src/images/dataImages/categories/Fish.png",
+    image: "/react-eco-store/images/dataImages/categories/Fish.png",
     slug: "fish",
   },
 
   {
     id: 4,
     name: "Meat",
-    image: "/react-eco-store/src/images/dataImages/categories/Meat.png",
+    image: "/react-eco-store/images/dataImages/categories/Meat.png",
     slug: "meat",
   },
 
   {
     id: 5,
     name: "Drinks",
-    image: "/react-eco-store/src/images/dataImages/categories/soft-drink.png",
+    image: "/react-eco-store/images/dataImages/categories/soft-drink.png",
     slug: "drinks",
   },
   {
     id: 6,
     name: "Snacks",
-    image: "/react-eco-store/src/images/dataImages/categories/Snacks.png",
+    image: "/react-eco-store/images/dataImages/categories/Snacks.png",
     slug: "snacks",
   },
 ];
@@ -53,7 +53,7 @@ export const productsData = [
       (category) => category.name === "Fresh Fruit"
     ).name,
     name: "Green Apple",
-    image: "/react-eco-store/src/images/dataImages/products/apple.jpg",
+    image: "/react-eco-store/images/dataImages/products/apple.jpg",
     price: 10.49,
     rating: 4,
     description:
@@ -78,7 +78,7 @@ export const productsData = [
       (category) => category.name === "Fresh Fruit"
     ).name,
     name: "Fresh Mango",
-    image: "/react-eco-store/src/images/dataImages/products/mango.jpg",
+    image: "/react-eco-store/images/dataImages/products/mango.jpg",
     price: 19.99,
     rating: 4,
     description:
@@ -101,7 +101,7 @@ export const productsData = [
       (category) => category.name === "Vegetables"
     ).name,
     name: "Chinese Cabbage",
-    image: "/react-eco-store/src/images/dataImages/products/chinese-cabbage.jpg",
+    image: "/react-eco-store/images/dataImages/products/chinese-cabbage.jpg",
     price: 17.51,
     rating: 5,
     description:
@@ -126,7 +126,7 @@ export const productsData = [
       (category) => category.name === "Vegetables"
     ).name,
     name: "Green Capsicum",
-    image: "/react-eco-store/src/images/dataImages/products/green-capsicum.jpg",
+    image: "/react-eco-store/images/dataImages/products/green-capsicum.jpg",
     price: 12.99,
     rating: 2,
     description:
@@ -149,7 +149,7 @@ export const productsData = [
       (category) => category.name === "Vegetables"
     ).name,
     name: "Ladies Finger",
-    image: "/react-eco-store/src/images/dataImages/products/ladies-finger.jpg",
+    image: "/react-eco-store/images/dataImages/products/ladies-finger.jpg",
     price: 6.99,
     rating: 4,
     description:
@@ -172,7 +172,7 @@ export const productsData = [
       (category) => category.name === "Vegetables"
     ).name,
     name: "Corn",
-    image: "/react-eco-store/src/images/dataImages/products/corn.jpg",
+    image: "/react-eco-store/images/dataImages/products/corn.jpg",
     price: 8.7,
     rating: 4,
     description:
@@ -195,7 +195,7 @@ export const productsData = [
       (category) => category.name === "Vegetables"
     ).name,
     name: "Red Tomato",
-    image: "/react-eco-store/src/images/dataImages/products/tomato.jpg",
+    image: "/react-eco-store/images/dataImages/products/tomato.jpg",
     price: 9.99,
     rating: 5,
     description:

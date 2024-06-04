@@ -1,10 +1,10 @@
 import "./FollowUs.scss";
-import instagramPic1 from "../../../images/follow-us/Instagram Post 1.jpg";
-import instagramPic2 from "../../../images/follow-us/Instagram Post 2.jpg";
-import instagramPic3 from "../../../images/follow-us/Instagram Post 3.jpg";
-import instagramPic4 from "../../../images/follow-us/Instagram Post 4.jpg";
-import instagramPic5 from "../../../images/follow-us/Instagram Post 5.jpg";
-import instagramPic6 from "../../../images/follow-us/Instagram Post 6.jpg";
+import instagramPic1 from "/images/follow-us/Instagram Post 1.jpg";
+import instagramPic2 from "/images/follow-us/Instagram Post 2.jpg";
+import instagramPic3 from "/images/follow-us/Instagram Post 3.jpg";
+import instagramPic4 from "/images/follow-us/Instagram Post 4.jpg";
+import instagramPic5 from "/images/follow-us/Instagram Post 5.jpg";
+import instagramPic6 from "/images/follow-us/Instagram Post 6.jpg";
 
 const FollowUs = () => {
   return (

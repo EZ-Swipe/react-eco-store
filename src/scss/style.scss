@@ -558,11 +558,11 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
 }
 
 .slick-prev:before {
-  content: url(../images/prev-arrow.png) !important;
+  content: url('/images/prev-arrow.png') !important;
 }
 
 .slick-next:before {
-  content: url(../images/next-arrow.png) !important;
+  content: url('/images/next-arrow.png') !important;
 }
 
 .slick-next {

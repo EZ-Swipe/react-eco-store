@@ -1,16 +1,16 @@
 .statistics-section {
-  background: url(../../../images/statistics/BG.png) 0 0 / cover no-repeat;
+  background: url("/images/statistics/BG.png") 0 0 / cover no-repeat;
   position: relative;
 
   &::after {
-    content: url("../../../images/decor-3.png");
+    content: url("/images/decor-3.png");
     position: absolute;
     top: 24px;
     left: 0;
   }
 
   &::before {
-    content: url("../../../images/decor-4.png");
+    content: url("/images/decor-4.png");
     position: absolute;
     top: 14px;
     right: 0;
@@ -18,7 +18,7 @@
 
   & > div {
     &::before {
-      content: url("../../../images/decor-5.png");
+      content: url("/images/decor-5.png");
       position: absolute;
       bottom: -21px;
       right: 85px;

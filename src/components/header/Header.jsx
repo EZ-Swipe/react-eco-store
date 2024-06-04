@@ -1,6 +1,6 @@
 import { Link, NavLink } from "react-router-dom";
 import "./Header.scss";
-import logo from "../../images/logo.png";
+import logo from "/images/logo.png";
 import { GrLocation } from "react-icons/gr";
 import { SlHeart } from "react-icons/sl";
 import { MdPhoneInTalk } from "react-icons/md";

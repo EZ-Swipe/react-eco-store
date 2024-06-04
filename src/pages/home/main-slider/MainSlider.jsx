@@ -4,7 +4,7 @@ import "slick-carousel/slick/slick-theme.css";
 import "./MainSlider.scss";
 import { Link } from "react-router-dom";
 import { GoArrowRight } from "react-icons/go";
-import img1 from "../../../images/main-slider-img-1.png"
+import img1 from "/images/main-slider-img-1.png"
 
 const MainSlider = () => {
   const settings = {

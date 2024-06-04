@@ -3,10 +3,10 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import "./About.scss";
 
-import img1 from "../../images/about/team/img1.jpg";
-import img2 from "../../images/about/team/img2.jpg";
-import img3 from "../../images/about/team/img3.jpg";
-import img4 from "../../images/about/team/img4.jpg";
+import img1 from "/images/about/team/img1.jpg";
+import img2 from "/images/about/team/img2.jpg";
+import img3 from "/images/about/team/img3.jpg";
+import img4 from "/images/about/team/img4.jpg";
 import IconsList from "../../components/icons-list/IconsList";
 
 const TeamSlider = () => {

@@ -1,6 +1,6 @@
 import "./ChooseUs.scss";
-import chooseUspic1 from "../../../images/choose-us/choose-us-1.jpg";
-import chooseUspic2 from "../../../images/choose-us/choose-us-2.jpg";
+import chooseUspic1 from "/images/choose-us/choose-us-1.jpg";
+import chooseUspic2 from "/images/choose-us/choose-us-2.jpg";
 import { IoCheckmarkCircle } from "react-icons/io5";
 import { Link } from "react-router-dom";
 import { GoArrowRight } from "react-icons/go";

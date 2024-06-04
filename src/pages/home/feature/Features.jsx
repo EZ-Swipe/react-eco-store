@@ -1,8 +1,8 @@
 import "./Features.scss";
-import shippingImg from "../../../images/features/shipping.png";
-import supportImg from "../../../images/features/support.png";
-import paymentImg from "../../../images/features/payment.png";
-import moneyBackImg from "../../../images/features/money-back.png";
+import shippingImg from "/images/features/shipping.png";
+import supportImg from "/images/features/support.png";
+import paymentImg from "/images/features/payment.png";
+import moneyBackImg from "/images/features/money-back.png";
 
 const Features = () => {
   return (

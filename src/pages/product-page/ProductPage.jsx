@@ -3,7 +3,7 @@ import useEcoStore from "../../zustand/useEcoStore";
 import QuickViewModal from "../../components/quick-view/QuickViewModal";
 import { useParams } from "react-router-dom";
 import "./ProductPage.scss";
-import videoPreviewImg from "../../images/video-preview.jpg";
+import videoPreviewImg from "/images/video-preview.jpg";
 import useReviewsStore from "../../zustand/useReviewsStore";
 import { Avatar } from "antd";
 import { UserOutlined } from "@ant-design/icons";

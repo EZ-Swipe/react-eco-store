@@ -1,14 +1,14 @@
 import "./Footer.scss";
 import { Link } from "react-router-dom";
-import logo from "../../images/logo.png";
+import logo from "/images/logo.png";
 import IconsList from "../icons-list/IconsList";
 import { FaApple } from "react-icons/fa";
 import { FaGooglePlay } from "react-icons/fa";
-import applepayImg from "../../images/footer-under/ApplePay.png";
-import visaImg from "../../images/footer-under/Visa.png";
-import discovereImg from "../../images/footer-under/Discover.png";
-import mastercardImg from "../../images/footer-under/Mastercard.png";
-import securePaymentImg from "../../images/footer-under/Cart.png";
+import applepayImg from "/images/footer-under/ApplePay.png";
+import visaImg from "/images/footer-under/Visa.png";
+import discovereImg from "/images/footer-under/Discover.png";
+import mastercardImg from "/images/footer-under/Mastercard.png";
+import securePaymentImg from "/images/footer-under/Cart.png";
 import { IoCloseOutline } from "react-icons/io5";
 import { useState } from "react";
 
